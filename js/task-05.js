@@ -1,16 +1,16 @@
 
-const fieldInput = document.querySelector('#name-input' );
+const fieldInput = document.querySelector('#name-input');
 
 const nameSpan = document.querySelector('#name-output');
 
 
-function newInput(i) {
+function newInput(event) {
 
-    nameSpan.textContent = i.currentTarget.value;
+   nameSpan.textContent = event.currentTarget.value;
 
-    if (i.currentTarget.value.length === 0) {
-        nameSpan.textContent = 'Anonymous'
-    }
+   if (event.currentTarget.value.length === 0) {
+      nameSpan.textContent = 'Anonymous'
+   }
 }
 
 

@@ -35,9 +35,10 @@ galaryList.insertAdjacentHTML("afterbegin", galaryElem);
 // add css
 
 document.body.style.background = 'rgb(76, 9, 121)';
-document.body.style.background = 'linear-gradient(90deg, rgba(76,9,121,1) 21%, rgba(124,9,32,1) 64%, rgba(38,0,255,0.989233193277311) 100%)';
+document.body.style.background = 'linear-gradient(280deg, rgba(76,9,121,0.41698398109243695) 21%, rgba(124,9,32,0.33575148809523814) 64%, rgba(38,0,255,0.2769279586834734) 100%)';
 
-galaryList.style.cssText = `list-style-type: none;
+galaryList.style.cssText = 
+`list-style-type: none;
    display: flex;
    justify-content: center;
    align-items: center;
